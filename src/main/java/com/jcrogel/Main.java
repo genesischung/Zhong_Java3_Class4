@@ -25,6 +25,11 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
+        // I do not have direct access to twitter and have to use a proxy
+        System.setProperty("http.proxyHost", "127.0.0.1");
+        System.setProperty("http.proxyPort", "2334");
+        System.setProperty("https.proxyHost", "127.0.0.1");
+        System.setProperty("https.proxyPort", "2334");
         launch(args);
     }
 }

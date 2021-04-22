@@ -1,4 +1,4 @@
 # Java3_Class4
-Sample code for my students that shows the use of maven
+Source code from https://github.com/jcrogel/Java3_Class4
 
-This is for intended use with IntelliJ
+Convert the project to Gradle from Maven
